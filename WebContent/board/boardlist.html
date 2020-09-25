@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<style type="text/css">
+	
+		h1{
+			text-align: center;
+			font-weight: boid;	
+		}
+		
+		.col{
+	    	font-weight: bold;
+	    	font-size: 12px;
+	    	color: white;
+	    	background-color: black;
+		}
+		
+		.col td{
+			text-align: center;
+		}
+		
+		.dol1 {
+			width:90px; 
+		}
+		.dol2 {
+			width:550px; 
+		}
+		.dol3 {
+			width:110px; 
+		}
+		.dol4 {
+			width:80px; 
+		}
+		
+		
+		/*항목*/
+		#sub {			
+			text-align: left;			
+		}
+		#sub > a{
+			
+			text-decoration: none;
+			color: black;		
+		}
+		/*table*/
+		.tbl{
+			width : 830px;
+			border-spacing: 0px;
+			border-collapse: collapse;
+			margin: 0px auto;
+		}		
+		.tbl td{
+			border : black 2px solid;
+			height : 30px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+
+<body>
+	<h1>Board List Page</h1>
+	<!--  게시판 리스트 -->
+	<!-- 제목 클릭하면 boardselect로 이동 -->
+	
+	<table class="tbl">
+		<tr class= "col">
+		<td class="dol1">no</td><td class="dol2">제목</td><td class="dol3">작성자</td><td class="dol4">작성일</td>
+		</tr>
+		<tr>
+		<td>1</td><td id="sub"><a href ="./boardselect.html">a123456</a></td><td>a</td><td>2000.01.01</td>
+		</tr>
+		<tr>
+		<td>2</td><td id="sub"><a href ="./boardselect.html">b123456</a></td><td>b</td><td>2001.01.01</td>
+		</tr>
+		<tr>
+		<td>3</td><td id="sub"><a href ="./boardselect.html">c123456</a></td><td>c</td><td>2002.01.01</td>
+		</tr>
+		<tr>
+		<td>4</td><td id="sub"><a href ="./boardselect.html">d123456</a></td><td>d</td><td>2003.01.01</td>
+		</tr>
+		<tr>
+		<td>5</td><td id="sub"><a href ="./boardselect.html">e123456</a></td><td>e</td><td>2004.01.01</td>
+		</tr>
+		<tr>
+		<td>6</td><td id="sub"><a href ="./boardselect.html">f123456</a></td><td>f</td><td>2005.01.01</td>
+		</tr>
+		<tr>
+		<td>7</td><td id="sub"><a href ="./boardselect.html">g123456</a></td><td>g</td><td>2006.01.01</td>
+		</tr>
+		<tr>
+		<td>8</td><td id="sub"><a href ="./boardselect.html">h123456</a></td><td>h</td><td>2007.01.01</td>
+		</tr>
+		<tr>
+		<td>9</td><td id="sub"><a href ="./boardselect.html">i123456</a></td><td>i</td><td>2008.01.01</td>
+		</tr>
+		<tr>
+		<td>10</td><td id="sub"><a href ="./boardselect.html">j123456</a></td><td>j</td><td>2009.01.01</td>
+		</tr>
+	</table>
+	
+	
+	<!-- 글쓰기 클릭하면 boardWrite로 이동 -->
+		<form action="./boardwrite.html">
+			<p class="wri"><input type="submit" value ="글쓰기" ></p>		
+		</form>
+	
+
+</body>
+</html>
